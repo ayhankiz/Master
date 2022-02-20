@@ -1,0 +1,48 @@
+@use "../abstracts/" as *;
+
+/* Container */
+
+.container {
+  padding: 0 12.5rem;
+  overflow: hidden;
+  @include xxl {
+    padding: 0 10rem;
+  }
+
+  @include xl {
+    padding: 0 6.25rem;
+  }
+  @include lg {
+    padding: 0 5rem;
+  }
+  @include md {
+    padding: 0 2.5rem;
+  }
+  @include sm {
+    padding: 0 1rem;
+  }
+}
+
+/* Container Fluid */
+
+.container-fluid {
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+// section paddings
+
+.section-lg {
+  padding: $section-padding-large !important;
+}
+
+.section-md {
+  padding: $section-padding-medium !important;
+}
+
+.section-sm {
+  padding: $section-padding-small !important;
+}
+
+// background

@@ -1,0 +1,60 @@
+// Colors
+
+$color-primary: #023059;
+$color-secondary: #feba42;
+
+$link-primary: rgba(#fff, 0.9);
+
+$bg-light-grey: #f5f5f5;
+$bg-white: #ffffff;
+
+// prettier-ignore
+$breakpoints: (
+  xs: 0,
+  sm: 36em,   // 576px
+  md: 50em,   // 800px
+  lg: 70em,   // 1120px
+  xl: 87.5em, // 1400px
+  xxl: 100em, // 1600px
+);
+
+$section-padding-large: 10rem 0;
+$section-padding-medium: 7.5rem 0;
+$section-padding-small: 5rem 0;
+
+// Typography
+
+$font-family-sans-serif: "Lato", sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$font-weight-thin: 100;
+$font-weight-extralight: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$headings-font-weight: $font-weight-bold;
+$h1-padding-bottom: 3.125rem;
+
+$h1-font-size: 3.75rem;
+$h2-font-size: 2.925rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.75rem;
+
+$h1-lineheight: $h1-font-size * 1.25;
+
+$p-font-size-base: 1.325rem;
+$p-font-size-small: $p-font-size-base * 0.875;
+$p-font-size-large: $p-font-size-base * 1.125;
+
+$p-lineheight-small: $p-font-size-small * 1.5;
+$p-lineheight-base: $p-font-size-base * 1.5;
+$p-lineheight-large: $p-font-size-large * 1.5;
+
+$link-decoration: none;
+$link-hover-decoration: none;
+
+// Box-shadow
+$box-shadow-dark--1: rgba(0, 0, 0, 0.125);
